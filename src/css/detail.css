@@ -1,0 +1,81 @@
+.containerDetail {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.85rem;
+  background-color: bisque;
+}
+.cardDetail {
+  width: 85%;
+  max-width: 1300px;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background-color: aqua;
+}
+.cardDetail .ant-card-body {
+  padding: 0px;
+}
+/* header------------------------------------------------ */
+.headerDetail {
+  height: 6rem;
+  width: 100%;
+  padding: 0px 30px;
+  background-color: var(--blue-macropay);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerButtonTitle{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.buttonCloseDetail {
+  background-color: var(--white-macropay);
+  color: var(--blue-macropay);
+}
+
+.containerDetail .title {
+  display: flex;
+  flex-direction: column;
+}
+.containerDetail .title .ant-typography {
+  color: var(--yellow-macropay);
+  margin-left: 20px;
+  line-height: 14px;
+}
+.stepDetailContainer {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.stepDetailContainer .ant-steps-icon{
+  color: var(--white-macropay) !important;
+}
+.stepDetailContainer
+.ant-steps-item-container
+.ant-steps-item-content
+.ant-steps-item-title::after {
+background-color: var(--white-macropay) !important;
+}
+.stepDetailContainer .ant-steps-item-icon{
+  border-color: var(--white-macropay) !important;
+}
+
+.stepDetailContainer .ant-steps-item-active .ant-steps-item-icon{
+ background-color: var(--white-macropay) !important;
+ color: var(--blue-macropay) !important;
+}
+
+.stepDetailContainer .ant-steps-item-active .ant-steps-icon{
+  color: var(--blue-macropay) !important;
+ }
+ .stepDetailContainer .ant-steps-icon .anticon{
+  font-size: 30px !important;
+ }
+/* section------------------------------------------------------ */
+
+

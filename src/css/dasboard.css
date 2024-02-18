@@ -34,8 +34,8 @@
   padding: 1rem;
 }
 .newFolioButton {
-  background-color: #ffdd00;
-  color: #0047ba;
+  background-color:var(--yellow-macropay);
+  color:var(--blue-macropay);
   font-size: 1.2rem;
   padding: 0.25rem 1.25rem;
   height: unset;

@@ -1,3 +1,4 @@
+import "../css/color.css"
 import "../css/dasboard.css";
 import {
   Card,
@@ -37,12 +38,14 @@ function Dasboard() {
             <Col span={12}>
               <div className="leftSide">
                 <Image
+                  preview={false}
                   alt=""
                   src={macropayTransparente}
                   height={150}
                   style={{ width: "100%", height: "auto" }}
                 />
                 <Image
+                  preview={false}
                   alt=""
                   src={cocoEscudo}
                   width={350}
@@ -77,7 +80,7 @@ function Dasboard() {
                         okText: "Aceptar",
                         cancelText:null,
                         onOk: () => {
-                            navigate(`/sobremi`)
+                            navigate(`/detail`)
                         },
                         width: 500,
 

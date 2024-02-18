@@ -1,5 +1,5 @@
 .header {
-  background-color: #ffff;
+  background-color:var(--white-macropay);
   padding: 1rem;
   box-shadow: 0px 10px 30px #00000029;
   display: flex;
@@ -10,5 +10,5 @@
 }
 .icon {
   font-size: 30px;
-  color:#A1ADC0;
+  color:var(--gray-icon);
 }
