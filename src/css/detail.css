@@ -73,7 +73,7 @@ background-color: var(--white-macropay) !important;
   color: var(--blue-macropay) !important;
  }
  .stepDetailContainer .ant-steps-icon .anticon{
-  font-size: 30px !important;
+  font-size: 2rem !important;
  }
  /* modal------------------------------------------------------- */
  .modalDetail .ant-modal-content{
@@ -91,9 +91,9 @@ background-color: var(--white-macropay) !important;
  }
  .titleModal{
    position: absolute;
-   top: 35px;
-   left: 60px;
-   line-height: 14px;
+   top: 2.5rem;
+   left: 4.3rem;
+   line-height: 1rem;
  }
  .modalDetail .titleModal h3{
   line-height: 8px;
@@ -105,11 +105,19 @@ background-color: var(--white-macropay) !important;
  .modalDetail .rowContainer{
   width: 80%;
   margin: 0 auto;
-  padding: 30px 0px;
+  padding: 2rem 0px;
  }
  .modalDetail .rowContainer h5 {
   line-height: 0px;
  }
 /* section------------------------------------------------------ */
-
+.containerDetail .column {
+  padding: 1rem;
+}
+.containerDetail .button{
+  width: 100%;
+}
+/* .containerDetail .columnImage img{
+  width: 10px;
+} */
 
