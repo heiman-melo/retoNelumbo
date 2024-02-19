@@ -3,6 +3,7 @@
 }
 .card {
   width: 100%;
+  margin-bottom: 28px;
   max-width: 900px;
   overflow: hidden;
   border-radius: 1.25rem;

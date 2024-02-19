@@ -10,6 +10,7 @@ import {
   Form,
   Input,
   Select,
+  Divider,
 } from "antd";
 import "../css/color.css";
 import "../css/detail.css";
@@ -21,6 +22,7 @@ import {
   NodeIndexOutlined,
   PhoneOutlined,
   OneToOneOutlined,
+  DownCircleFilled,
 } from "@ant-design/icons";
 import { useState, useEffect } from "react";
 import TicketWaves from "../assets/ticket-waves.svg";
@@ -34,9 +36,9 @@ import phoneLeft from "../assets/phone-left.png";
 
 // import Item from "antd/es/descriptions/Item";
 function Detail() {
-  const navigate = useNavigate();
-
   const [visible, setVisible] = useState(false);
+
+  const navigate = useNavigate();
 
   const handleClose = () => {
     setVisible(false);
@@ -142,9 +144,26 @@ function Detail() {
               />
             </div>
           </div>
-          <Row>
+          <Row className="rowBodyCard">
             <Col className="column" span={6}>
-              primera
+              <Row>
+                <Col span={24}>
+                  <Typography.Text>FOLIOS REGISTRADOS</Typography.Text>{" "}<DownCircleFilled className="iconArrow"/>
+                  
+                  <Divider />
+                </Col>
+                <Col span={24}>
+                  <Typography.Text>INFORMACIÓN DE VENTA</Typography.Text>
+                  <Divider />
+                </Col>
+                <Col span={24}>
+                  <Typography.Text>FACTURACIÓN</Typography.Text>
+                  <Divider />
+                </Col>
+                <Col span={24}>
+                  <Typography.Text>CLIENTE TITULAR</Typography.Text>
+                </Col>
+              </Row>
             </Col>
             <Col span={18}>
               <Form name="form" layout="vertical">

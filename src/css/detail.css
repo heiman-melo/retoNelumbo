@@ -1,18 +1,23 @@
 .containerDetail {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   padding-top: 2.85rem;
 }
+.containerDetail .iconArrow{
+ color:var(--gray-icon);
+ font-size: 16px;
+ margin-left: 1rem;
+}
 .cardDetail {
   width: 85%;
   max-width: 1300px;
-  height: 70vh;
   overflow: hidden;
   border-radius: 1.25rem;
-  /* background-color: aqua; */
+  margin-bottom: 6px;
+  padding-bottom: 20px;
 }
+
 .cardDetail .ant-card-body {
   padding: 0px;
 }
@@ -117,7 +122,17 @@ background-color: var(--white-macropay) !important;
 .containerDetail .button{
   width: 100%;
 }
-/* .containerDetail .columnImage img{
-  width: 10px;
-} */
 
+.rowBodyCard .ant-form-item-label label{
+  color: var(--blue-macropay);
+}
+.rowBodyCard .ant-typography{
+  color:var(--blue-macropay);
+}
+.rowBodyCard .ant-divider{
+  min-width: 40px !important;
+  max-width: 40px;
+  border: 5px solid #FFDD00;
+  border-radius:5px;
+  margin: 5px 0px !important;
+}

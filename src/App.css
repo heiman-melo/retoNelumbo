@@ -4,7 +4,7 @@
 html { font-size: 14px; }
 
 .main{
-  height: calc(100vh - 111px);
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -15,5 +15,6 @@ html { font-size: 14px; }
   padding: 0 !important;
   text-align: center;
   padding-bottom: 30px !important;
+  padding-top: 30px !important;
   color: #C0C0C0;
 }
