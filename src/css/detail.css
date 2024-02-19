@@ -1,18 +1,17 @@
 .containerDetail {
-  height: 100%;
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding-top: 2.85rem;
-  background-color: bisque;
 }
 .cardDetail {
   width: 85%;
   max-width: 1300px;
+  height: 70vh;
   overflow: hidden;
   border-radius: 1.25rem;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .cardDetail .ant-card-body {
   padding: 0px;
@@ -75,6 +74,41 @@ background-color: var(--white-macropay) !important;
  }
  .stepDetailContainer .ant-steps-icon .anticon{
   font-size: 30px !important;
+ }
+ /* modal------------------------------------------------------- */
+ .modalDetail .ant-modal-content{
+  padding: 0;
+  overflow: hidden;
+  border-radius: 18px !important;
+ }
+ .modalDetail .ant-modal-content img{
+  height: auto !important;
+  width: 651px !important;
+ }
+ .modalDetail .ant-modal-content .ant-modal-close-icon {
+   color: var(--blue-macropay);
+   font-size: 2rem;
+ }
+ .titleModal{
+   position: absolute;
+   top: 35px;
+   left: 60px;
+   line-height: 14px;
+ }
+ .modalDetail .titleModal h3{
+  line-height: 8px;
+  color: var(--blue-macropay);
+ }
+ .modalDetail .titleModal span {
+  font-weight: bold;
+ }
+ .modalDetail .rowContainer{
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0px;
+ }
+ .modalDetail .rowContainer h5 {
+  line-height: 0px;
  }
 /* section------------------------------------------------------ */
 

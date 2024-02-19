@@ -1,12 +1,13 @@
 .header {
   background-color:var(--white-macropay);
   padding: 1rem;
-  box-shadow: 0px 10px 30px #00000029;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: unset;
   line-height: unset;
+  position: relative;
+  box-shadow:0px 1px 15px 0px #7c7c84;
 }
 .icon {
   font-size: 30px;
